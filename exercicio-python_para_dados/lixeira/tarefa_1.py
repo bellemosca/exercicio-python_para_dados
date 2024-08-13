@@ -14,5 +14,3 @@ df = df.rename(columns={"ID": "Identificador", "Ocupação": "Profissão"})
 
 # Salvar o arquivo CSV modificado
 df.to_csv("saude_do_sono_estilo_vida_modificado.csv", index=False)
-
-print("Substituições concluídas e arquivo salvo como 'arquivo_modificado.csv'.")
